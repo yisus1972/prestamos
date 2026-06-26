@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prototipos Web - Pensionados</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    header p {
+      margin-top: 12px;
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #0f172a;
+    }
+
+    .card p {
+      color: #64748b;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: #0f172a;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Prototipos Web</h1>
+    <p>Seleccione una versión para visualizar la propuesta.</p>
+  </header>
+
+  <main>
+    <section class="grid">
+
+      <article class="card">
+        <h2>Prototipo 1</h2>
+        <p>Diseño claro, directo y orientado a confianza.</p>
+        <a class="btn" href="./prototipo-1-confianza-clara/index.html">
+          Abrir Prototipo 1
+        </a>
+      </article>
+
+      <article class="card">
+        <h2>Prototipo 2</h2>
+        <p>Diseño cálido, comercial y visual.</p>
+        <a class="btn" href="./prototipo-2-calidez-dorada/index.html">
+          Abrir Prototipo 2
+        </a>
+      </article>
+
+      <article class="card">
+        <h2>Prototipo 3</h2>
+        <p>Diseño institucional, sobrio y profesional.</p>
+        <a class="btn" href="./prototipo-3-institucional-azul/index.html">
+          Abrir Prototipo 3
+        </a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Prototipos Web - Pensionados</p>
+  </footer>
+</body>
+</html>
